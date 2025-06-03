@@ -9,6 +9,7 @@
 
 li, a {
     font-family: "SST", Condensed;
+    text-decoration: none;
     font-weight: 500px;
     font-size: 1.2rem;
     color: #9ee4ff;
@@ -43,7 +44,7 @@ header {
 }
 
 body {
-    background-image: url("DS.jpg");
+    background-image: url("imagens/DS.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -61,8 +62,8 @@ main .container {
 
 footer {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 30px 10%;
     background-color: #14406e;
     border: 2px solid #6194cf50;
@@ -74,7 +75,6 @@ footer {
     border: 2px solid #6194cf50;
     border-radius: 40;
     transition: 1s;
-    
 }
 
 .link:hover {
@@ -129,4 +129,29 @@ footer {
     flex-direction: column;
     align-self: center;
     width: 600px;
+}
+
+.icons {
+    width: 30px;
+}
+
+.redes {
+    list-style: none;
+    padding-top: 20px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.redes li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.redes li a {
+    transition: 1s;
+}
+
+.redes li a:hover {
+    color: #ffffff;
+    transition: 1s;
 }
