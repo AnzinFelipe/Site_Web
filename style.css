@@ -1,0 +1,45 @@
+main .container {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.projeto1img {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto1p {
+    display: flex;
+    width: 600px;
+    align-self: center;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.WOD {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    align-self: center; 
+    font-size: 1.2rem;
+}
+
+.oneImg {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oneP {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 600px;
+}
