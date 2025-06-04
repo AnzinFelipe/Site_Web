@@ -44,28 +44,24 @@ header {
 }
 
 body {
+    height: 100vh;
     background-image: url("imagens/DS.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+main {
+    height: 100%;
+}
+
 main .container {
     display: flex;
+    width: 100%;
+    height: 100%;
     align-items: center;
-    align-items: flex-start;
     justify-content: space-evenly;
     padding: 30px 10%;
     background-color: #383636d8;
-    border: 2px solid #6194cf50;
-    border-radius: 40;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 10%;
-    background-color: #14406e;
     border: 2px solid #6194cf50;
     border-radius: 40;
 }
@@ -92,6 +88,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projeto1img img {
+    padding-top: 20px;
 }
 
 .projeto1p {
@@ -123,12 +123,57 @@ footer {
     align-items: center;
 }
 
+.oneImg img {
+    padding-top: 20px;
+}
+
 .oneP {
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-self: center;
     width: 600px;
+}
+
+.sobreMim {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+    background-color: #383636d8;
+    border: 2px solid #6194cf50;
+    border-radius: 40;
+}
+
+.sobreImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobreImg img {
+    padding-top: 20px;
+    width: 400px;
+}
+
+.sobrep {
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 10%;
+    background-color: #14406e;
+    border: 2px solid #6194cf50;
+    border-radius: 40;
 }
 
 .icons {
