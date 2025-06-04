@@ -213,6 +213,41 @@ main .container {
     border: 2px solid #6194cf50;
 }
 
+.wallpapers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px 10%;
+    border: 2px solid #6194cf50;
+}
+
+.wallpapers li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.botoes { 
+    font-family: "SST", Condensed;
+    width: 100px;
+    font-weight: 500px;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #14406e;
+    border: 2px solid #6194cf50;
+    border-radius: 40;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.botoes:hover {
+    background-color: #248ab3;
+    border: 2px solid #6194cf50;
+    transition: 1s;
+}
+
 footer {
     height: 100%;
     display: flex;
