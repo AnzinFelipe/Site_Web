@@ -6,7 +6,7 @@
     <title>Site Portfólio</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
-<body>
+<body class = "tervore">
     <header>
          <nav>
              <ul class = "navegacao">
@@ -17,15 +17,17 @@
         </nav>
     </header>
     <main>
-        <div class = "container">
-            <p>Main</p>
-            <article>
-                <p>Article</p>
-            </article>
-            <aside>
-                <p>Aside</p>
-            </aside>
-        </div>
+        <article class = "boasVindas">
+            <h1>✨ Bem-vindo ao Site Portfólio de Ian Felipe ✨</h1>
+        </article>
+        <section class = "wallpapers">
+            <ul class = "botoes">
+                <li><button id = "flores" onclick = "salvar('imagens/DS.jpeg')">Flores azuis</button></li>
+                <li><button id = "higgs" onclick = "salvar('imagens/Higgs.jpeg')">Higgs</button></li>
+                <li><button id = "tervore" onclick = "salvar('imagens/Tervore.jpg')">Térvore</button></li>
+                <li><button id = "noite" onclick = "salvar('imagens/Noite.jpeg')">Noite</button></li>
+            </ul>
+        </section>
     </main>
     <footer>
         <h3>Onde me achar?</h3>
