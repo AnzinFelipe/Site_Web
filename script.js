@@ -1,4 +1,4 @@
-let imgNova = "imagens/desenho.jpeg";
+let imgNova = "imagens/desenho.png";
 let imgAnterior = "imagens/eu.jpeg";
 
 function trocarImg() {
