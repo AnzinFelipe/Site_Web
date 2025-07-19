@@ -21,7 +21,8 @@
         align-items: center;
         padding: 30px 10%;
         background-color: #14406e;
-        border-radius: 40;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
     }
 
     body {
@@ -66,19 +67,20 @@
         border-radius: 40;
     }
 
-    .link {
+    button {
+        display: inline-block;
+        padding: 10px 20px;
         background-color: #14406e;
-        border-radius: 40;
-        transition: 1s;
-    }
-
-    .link:hover {
-        background-color: #248ab3;
-        transition: 1s;
-    }
-
-    .linkA {
+        font-size: 1.1rem;
+        border-radius: 10px;
         cursor: pointer;
+        border: none;
+    }
+
+    button:hover {
+        transition: 1s;
+        background-color: #248ab3;
+        color: #ffffff;
     }
 
     .projeto1img {
@@ -88,30 +90,43 @@
         align-items: center;
     }
 
-    .projeto1img img {
-        padding-top: 20px;
+    .projeto1img h1 {
+        padding: 20px;
+    }
+
+    img {
+        border-radius: 10px;
     }
 
     .projeto1p {
         display: flex;
-        width: 600px;
-        align-self: center;
-        font-size: 1.2rem;
         flex-direction: column;
+        width: 600px;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .projeto1p p {
+        padding-bottom: 20px;
     }
 
     .WOD {
         display: flex;
         flex-direction: column;
         width: 600px;
-        align-self: center; 
+        align-items: center; 
         font-size: 1.2rem;
+    }
+
+    .WOD p {
+        padding-bottom: 20px;
     }
 
     .h1WOD {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     }
 
     .oneImg {
@@ -121,16 +136,20 @@
         align-items: center;
     }
 
-    .oneImg img {
-        padding-top: 20px;
+    .oneImg h1 {
+        padding: 20px;
     }
 
     .oneP {
         font-size: 1.2rem;
         display: flex;
         flex-direction: column;
-        align-self: center;
+        align-items: center;
         width: 600px;
+    }
+
+    .oneP p {
+        padding-bottom: 20px;
     }
 
     .sobreMim {
@@ -160,25 +179,6 @@
         flex-direction: column;
         width: 600px;
         justify-content: center;
-    }
-
-    #desenhobtn {
-        display: flex;
-        font-family: "SST", Condensed;
-        text-decoration: none;
-        font-weight: 500px;
-        font-size: 1.2rem;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        background-color: #14406e;
-        border-radius: 40;
-        transition: 1s;
-        cursor: pointer;
-    }
-
-    #desenhobtn:hover {
-        background-color: #248ab3;
-        transition: 1s;
     }
 
     .conhecimentos {
@@ -228,7 +228,9 @@
         flex-direction: row;
         justify-content: space-between;
         background-color: #14406e;
-        border-radius: 40;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        font-size: 1.2rem;
     }
     
     footer .contatos {
@@ -243,6 +245,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .temas h3 {
+        padding-bottom: 5px;
     }
 
     .temas .btnTema {
@@ -271,7 +277,7 @@
 
     .btnTema.novoTema .circulo {
         left: 50px;
-        background-color: chocolate;
+        background-color: rgb(245, 233, 183);
     }
     
     .icons {
@@ -330,6 +336,12 @@
         background-color: rgb(122, 53, 32);
     }
 
-    body.novoTema .link {
+    body.novoTema button {
         background-color: rgb(122, 53, 32);
+        color: rgb(245, 233, 183);
+    }
+
+    body.novoTema button:hover {
+        background-color: rgb(204, 99, 67);
+        color: #ffffff;
     }
