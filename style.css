@@ -17,7 +17,7 @@
 
     header {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         padding: 30px 10%;
         background-color: #14406e;
@@ -345,3 +345,4 @@
         background-color: rgb(204, 99, 67);
         color: #ffffff;
     }
+    
