@@ -39,15 +39,19 @@
     .navegacao li {
         display: inline-block;
         padding: 0px 20px;
+        transition: 0.5s; 
+    }
+
+    .navegacao li:hover {
+        transform: scale(1.1);
     }
 
     .navegacao li a {
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .navegacao li a:hover {
         color: #ffffff;
-        transition: 1s;
     }
 
     main {
@@ -75,12 +79,14 @@
         border-radius: 10px;
         cursor: pointer;
         border: none;
+        transition: 1s;
     }
 
     button:hover {
         transition: 1s;
         background-color: #248ab3;
         color: #ffffff;
+        transform: scale(1.1);
     }
 
     .projeto1img {
@@ -184,6 +190,8 @@
     }
 
     .conhecimentos {
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -192,14 +200,31 @@
         padding: 30px 10%;
     }
 
-    .conhecimentos p {
-        margin: 10px 0;
-    }
-
     .conhecimentos h1 {
         padding-bottom: 20px;
         font-size: 40px;
         color: #ffffff;
+    }
+
+    .conIcons {
+        list-style: none;
+        padding-top: 20px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+    }
+
+    .conIcons li {
+        display: inline-block;
+        padding: 0px 20px;
+        transition: 0.5s;
+    }
+    .conIcons li:hover{
+        transform: scale(1.3);
+    }
+
+    #github {
+        filter: invert(100%);
     }
 
     .boasVindas {
@@ -301,15 +326,19 @@
     .redes li {
         display: inline-block;
         padding: 0px 20px;
+        transition: 0.5s;
+    }
+
+    .redes li:hover {
+        transform: scale(1.1);
     }
 
     .redes li a {
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .redes li a:hover {
         color: #ffffff;
-        transition: 1s;
     }
     
     body.novoTema {
@@ -355,4 +384,12 @@
     
     body.novoTema .sobrep h1 {
         color: #ffffff;
+    }
+
+        body.novoTema .conhecimentos h1 {
+        color: #ffffff;
+    }
+
+    body.novoTema .conIcons li {
+        color: rgb(245, 233, 183);
     }
